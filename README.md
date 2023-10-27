@@ -28,4 +28,4 @@ Upon successful compilation and the configuration of the monitoring script (`mon
 
 **Note:** In cases where multiple DROP queries are executed in parallel, the `avoid_ddl()` procedure will terminate the one that commenced first. For additional DROP queries, each one must be managed separately by invoking the procedure again or terminating them manually.
 
-The **undo_drop** tool serves as a proactive safety net, enabling effective communication and oversight of critical schema changes while allowing for timely intervention in the event of unexpected or undesirable actions. It promotes greater control and security in your database environment.
+The **undo_drop** serves as a proactive safety net, enabling effective communication and oversight of critical schema changes while allowing for timely intervention in the event of unexpected or undesirable actions. It promotes greater control and security in your database environment.
